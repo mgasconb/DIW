@@ -50,4 +50,11 @@ $(document).ready(function() {
                 }
         );
     });
+    
+    $(".elemento_menu").click(function(){
+        $("animacion").hide();
+        var nodo = $(this).attr("href"); 
+        $(nodo).show();
+    });
+    
 });

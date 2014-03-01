@@ -92,3 +92,7 @@ a{
     color: #4186D3;
     font-size: larger;
 }
+
+.animacion{
+    display:none !important;
+}

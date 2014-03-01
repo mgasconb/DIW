@@ -10,7 +10,7 @@ Url:
 
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" lang="es">
         <title>Autobuses Paco</title>
         <link rel="StyleSheet" href="./recursos/css/principal.css" media="all" type="text/css">
         <link rel="StyleSheet" href="./recursos/css/menu.css" media="all" type="text/css">
@@ -55,82 +55,75 @@ Url:
                 </div>
 
                 <div id="contenido">
-                    <!--
-                MENU ANTIGUO
-                    <div id="menu_principal">
-                        <ul id="menu">
-                            <li class="item item_impar">
-                                <a href="./index.html">Inicio</a>
-                            </li>
-                            <li class="item item_par">
-                                <a href="./menu/nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="item item_impar">
-                                <a href="./menu/noticias.html">Noticias</a>
-                            </li>
-                            <li class="item item_par">
-                                <a href="./menu/incidencias.html">Incidencias del servicio</a>
-                            </li>
-                            <li class="item item_impar">
-                                <a href="./menu/contacto.html">Contacto</a>
-                            </li>
-                            <li class="item item_par">
-                                <a>Lineas</a>
-                                <ul class="submenu">
-                                    <li class="subitem item_impar"><a href="./lineas/1.html">Linea 1</a></li>
-                                    <li class="subitem item_par"><a href="./lineas/2.html">Linea 2</a></li>
-                                    <li class="subitem item_impar"><a href="./lineas/3.html">Linea 3</a></li>
-                                    <li class="subitem item_par"><a href="./lineas/4.html">Linea 4</a></li>
-                                    <li class="subitem item_impar"><a href="./lineas/5.html">Linea 5</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    MENU ANTIGUO
-                    -->
                     <div id="menu2">
                         <div id='css_menu2'>
                             <ul>
-                                <li class='active'><a href='index.html'><span>Inicio</span></a></li>
-                                <li class='subitem'><a href='#'><span>Lineas</span></a>
+                                <li id="menu1" class='active elemento_menu'><a href='#inicio'><span>Inicio</span></a></li>
+                                <li id="menu2" class='subitem elemento_menu'><a><span>Lineas</span></a>
                                     <ul>
-                                        <li class='subitem'><a href='./lineas/1.html'><span>Linea 1</span></a></li>
-                                        <li class='subitem'><a href='./lineas/2.html'><span>Linea 2</span></a></li>
-                                        <li class='subitem'><a href='./lineas/3.html'><span>Linea 3</span></a></li>
-                                        <li class='subitem'><a href='./lineas/4.html'><span>Linea 4</span></a></li>
-                                        <li class='subitem'><a href='./lineas/5.html'><span>Linea 5</span></a></li>
+                                        <li id="menu3" class='subitem elemento_menu'><a href='#contenido_linea1'><span>Linea 1</span></a></li>
+                                        <li id="menu4" class='subitem elemento_menu'><a href='#contenido_linea2'><span>Linea 2</span></a></li>
+                                        <li id="menu5" class='subitem elemento_menu'><a href='#contenido_linea3'><span>Linea 3</span></a></li>
+                                        <li id="menu6" class='subitem elemento_menu'><a href='#contenido_linea4'><span>Linea 4</span></a></li>
+                                        <li id="menu7" class='subitem elemento_menu'><a href='#contenido_linea5'><span>Linea 5</span></a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div id="contenido1">
-                        <div id="izquierda">                                
-                            <h3>Sobre nosotros:</h3>
-                            <button id="nosotros">&#9660;</button>
-                            <br/><br/>
-                            <div id="d_nosotros">
-                                <p><b>Direccion:</b>Calle falsa 123</p><br/>
-                                <p><b>Teléfono:</b>911111111</p><br/>
-                                <p><b>Fax:</b>912222222</p><br/>
-                            </div>
-
-
-
-                        </div>
-                        <div id="derecha">
-                            <h3>Trayectos disponibles:</h3>
-                            <button id="trayectos">&#9660;</button>
-                            <div id="d_trayectos">                                
+                    <div id="contenido1" class="animacion">
+                        <div id="inicio">
+                            <div id="izquierda">                                
+                                <h3>Sobre nosotros:</h3>
+                                <button id="nosotros">&#9660;</button>
                                 <br/><br/>
-                                <p><a class="enlaces" href="./lineas/1.html"><b>1: </b>Ciudad Lineal - Puerta de Arganda</a></p><br/>
-                                <p><a class="enlaces" href="./lineas/2.html"><b>2: </b>Benavente - Orcasitas</a></p><br/>
-                                <p><a class="enlaces" href="./lineas/3.html"><b>3: </b>Cristo Rey - Prosperidad</a></p><br/>
-                                <p><a class="enlaces" href="./lineas/4.html"><b>4: </b>Sol - Chamartín</a></p><br/>
-                                <p><a class="enlaces" href="./lineas/5.html"><b>5: </b>Cibeles - Palomeras</a></p><br/>
+                                <div id="d_nosotros">
+                                    <p><b>Direccion:</b>Calle falsa 123</p><br/>
+                                    <p><b>Teléfono:</b>911111111</p><br/>
+                                    <p><b>Fax:</b>912222222</p><br/>
+                                </div>
+                            </div>
+
+                            <div id="derecha">
+                                <h3>Trayectos disponibles:</h3>
+                                <button id="trayectos">&#9660;</button>
+                                <div id="d_trayectos">                                
+                                    <br/><br/>
+                                    <p><a class="enlaces" href="./lineas/1.html"><b>1: </b>Ciudad Lineal - Puerta de Arganda</a></p><br/>
+                                    <p><a class="enlaces" href="./lineas/2.html"><b>2: </b>Benavente - Orcasitas</a></p><br/>
+                                    <p><a class="enlaces" href="./lineas/3.html"><b>3: </b>Cristo Rey - Prosperidad</a></p><br/>
+                                    <p><a class="enlaces" href="./lineas/4.html"><b>4: </b>Sol - Chamartín</a></p><br/>
+                                    <p><a class="enlaces" href="./lineas/5.html"><b>5: </b>Cibeles - Palomeras</a></p><br/>
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                        </div>  
+
+                        <div id="contenido_linea1" class="animacion">
+                            <h3>Línea 1: Ciudad Lineal - Puerta de Arganda</h3><br/><br/><br/>
+                            Esta línea hace el recorrido de Ciudad Lineal a Puerta de Arganda.                        
+                        </div>  
+
+                        <div id="contenido_linea2" class="animacion">
+                            <h3>Línea 2: Benavente - Orcasitas</h3><br/><br/><br/>
+                            Esta línea hace el recorrido de Benavente a Orcasitas.                        
+                        </div> 
+
+                        <div id="contenido_linea3" class="animacion">
+                            <h3>Línea 3: Cristo Rey - Prosperidad</h3><br/><br/><br/>
+                            Esta línea hace el recorrido de Cristo Rey a Prosperidad.                        
+                        </div>  
+                        
+                        <div id="contenido_linea4" class="animacion">
+                        <h3>Línea 4: Sol - Chamartín</h3><br/><br/><br/>
+                        Esta línea hace el recorrido de Sol a Chamartín.                        
+                    </div> 
+                        
+                        <div id="contenido_linea" class="animacion">
+                        <h3>Línea 5: Cibeles - Palomeras</h3><br/><br/><br/>
+                        Esta línea hace el recorrido de Cibeles a Palomeras.                        
+                    </div>
+                    
                 </div>
             </div>
         </div>
