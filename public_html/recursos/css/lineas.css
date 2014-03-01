@@ -51,18 +51,11 @@ a{
     display: inline-block;
     border-radius: 15px;
 }
-
 #contenido{
     width: 80%;
     background: white;
 }
 
-#contenido1 {
-    display: inline-block;
-    height: 100%;
-    margin: 15% 1% 0;
-    width: 98%;
-}
 
 /*Contenido 1 en los HTML de las lineas*/
 #contenido1_lineas{
@@ -70,17 +63,4 @@ a{
     height: 100%;
     margin: 15% 10% 0;
     width: 98%;
-}
-
-
-#izquierda{
-    width: 28%;
-    float: left;
-    text-align: center;
-    border-right: 1px solid #98C7F2;
-}
-
-#derecha{
-    width: 68%;
-    float: right;
 }
