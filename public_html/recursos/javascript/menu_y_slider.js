@@ -20,4 +20,34 @@ $(document).ready(function() {
         }
     });
 
+    $("#d_nosotros").hide();
+
+    $('#nosotros').toggle(function() {
+        $("#d_nosotros").slideDown(
+                function() {
+                    $("#nosotros").html("&#9650;");
+                }
+        );
+    }, function() {
+        $("#d_nosotros").slideUp(
+                function() {
+                    $("#nosotros").html("&#9660;");
+                }
+        );
+    });
+
+    $("#d_trayectos").hide();
+    $('#trayectos').toggle(function() {
+        $("#d_trayectos").slideDown(
+                function() {
+                    $("#trayectos").html("&#9650;");
+                }
+        );
+    }, function() {
+        $("#d_trayectos").slideUp(
+                function() {
+                    $("#trayectos").html("&#9660;");
+                }
+        );
+    });
 });

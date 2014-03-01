@@ -54,6 +54,7 @@ a{
 #contenido{
     width: 80%;
     background: white;
+    min-height: 506px;
 }
 
 

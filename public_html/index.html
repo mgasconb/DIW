@@ -15,29 +15,7 @@ Url:
         <link rel="StyleSheet" href="./recursos/css/principal.css" media="all" type="text/css">
         <link rel="StyleSheet" href="./recursos/css/menu.css" media="all" type="text/css">
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type='text/javascript'></script>
-        <script type="text/javascript">
-            //Function del slider
-            $(function() {
-                $('#slider div:gt(0)').hide();
-                setInterval(function() {
-                    $('#slider div:first-child').fadeOut(0)
-                            .next('div').fadeIn(1000)
-                            .end().appendTo('#slider');
-                }, 4000);
-            });
-            
-            //Function del menu2
-            $('#css_menu2').prepend('<div id="menu-button">Menu</div>');
-	$('#css_menu2 #menu-button').on('click', function(){
-		var menu = $(this).next('ul');
-		if (menu.hasClass('open')) {
-			menu.removeClass('open');
-		}
-		else {
-			menu.addClass('open');
-		}
-	});
-        </script>
+        <script src='./recursos/javascript/menu_y_slider.js' type='text/javascript'></script>
     </head>
     <body>        
         <div id="todo">
@@ -75,7 +53,7 @@ Url:
                         -->
                     </div>
                 </div>
-                
+
                 <div id="contenido">
                     <!--
                 MENU ANTIGUO
@@ -109,7 +87,7 @@ Url:
                         </ul>
                     </div>
                     MENU ANTIGUO
-                -->
+                    -->
                     <div id="menu2">
                         <div id='css_menu2'>
                             <ul>
@@ -129,23 +107,28 @@ Url:
                     <div id="contenido1">
                         <div id="izquierda">                                
                             <h3>Sobre nosotros:</h3>
+                            <button id="nosotros">&#9660;</button>
                             <br/><br/>
-                            <p><b>Direccion:</b>Calle falsa 123</p><br/>
-                            <p><b>Teléfono:</b>911111111</p><br/>
-                            <p><b>Fax:</b>912222222</p><br/>
-
+                            <div id="d_nosotros">
+                                <p><b>Direccion:</b>Calle falsa 123</p><br/>
+                                <p><b>Teléfono:</b>911111111</p><br/>
+                                <p><b>Fax:</b>912222222</p><br/>
+                            </div>
 
 
 
                         </div>
                         <div id="derecha">
                             <h3>Trayectos disponibles:</h3>
-                            <br/><br/>
-                            <p><a class="enlaces" href="./lineas/1.html"><b>1: </b>Ciudad Lineal - Puerta de Arganda</a></p><br/>
-                            <p><a class="enlaces" href="./lineas/2.html"><b>2: </b>Benavente - Orcasitas</a></p><br/>
-                            <p><a class="enlaces" href="./lineas/3.html"><b>3: </b>Cristo Rey - Prosperidad</a></p><br/>
-                            <p><a class="enlaces" href="./lineas/4.html"><b>4: </b>Sol - Chamartín</a></p><br/>
-                            <p><a class="enlaces" href="./lineas/5.html"><b>5: </b>Cibeles - Palomeras</a></p><br/>
+                            <button id="trayectos">&#9660;</button>
+                            <div id="d_trayectos">                                
+                                <br/><br/>
+                                <p><a class="enlaces" href="./lineas/1.html"><b>1: </b>Ciudad Lineal - Puerta de Arganda</a></p><br/>
+                                <p><a class="enlaces" href="./lineas/2.html"><b>2: </b>Benavente - Orcasitas</a></p><br/>
+                                <p><a class="enlaces" href="./lineas/3.html"><b>3: </b>Cristo Rey - Prosperidad</a></p><br/>
+                                <p><a class="enlaces" href="./lineas/4.html"><b>4: </b>Sol - Chamartín</a></p><br/>
+                                <p><a class="enlaces" href="./lineas/5.html"><b>5: </b>Cibeles - Palomeras</a></p><br/>
+                            </div>
                         </div>
                     </div>  
                 </div>

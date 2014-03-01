@@ -55,6 +55,7 @@ a{
 #contenido{
     width: 80%;
     background: white;
+    min-height: 506px;
 }
 
 #contenido1 {
@@ -83,4 +84,11 @@ a{
 #derecha{
     width: 68%;
     float: right;
+}
+
+#nosotros, #trayectos{
+    background: none;
+    border: none;
+    color: #4186D3;
+    font-size: larger;
 }
