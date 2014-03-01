@@ -1,0 +1,250 @@
+/* 
+    Document   : principal
+    Created on : 23-feb-2014, 12:51:21
+    Author     : Miguel
+    Description: CSS principal
+*/
+html {
+    height: 100%;
+}
+
+*{
+    margin: 0 auto;                
+}
+
+body{
+    background: none repeat scroll 0 0 #E0E0E0;
+}
+
+h3{
+    color: #98C7F6;
+}
+
+a{
+    color:#0D78D8;
+    text-decoration: none;
+}
+
+.enlaces {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #0D78D8;
+    cursor: pointer;
+}
+
+.enlaces:hover {
+    background: #0D78D8;
+    color: #98C7F2;
+}
+
+#fondo_cabecera{
+    background: #8FB9D9;
+    text-align: center;
+}
+
+#cabecera /*Define una identificador "header" asociado a un elemento <div>. Es la posición de la cabecera */
+{
+    margin: 10px auto;
+    width: 90%;
+	 height: 200px;
+    background: #3F92D2;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+#logo{
+    float:left;
+    margin: 0.25% 2.3%;
+}
+
+#menu_principal {
+    display: inline-block;
+    margin: 0.5% 0;
+    text-align: center;
+    width: 100%;
+}
+
+#menu {
+    display: inline-block;
+    list-style: none outside none;
+    width: 100%;
+}
+
+.item{
+    float: left;
+    width: 15%;
+    margin: 0 1% 0 0;
+    background: #0000aa;
+    position: relative;
+} 
+
+.submenu {
+    display:none;
+    position: absolute;
+    top: 100%;
+    width: 80.6%;
+    left: -15.5%;
+}
+
+.item:hover >.submenu{
+    display:block;
+}
+
+.subitem{
+    list-style: none;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.subitem a{
+    width: 100%;
+}
+
+.item_par a {
+    background: none repeat scroll 0 0 #00284B;
+    color: #5BAAF2;
+    display: block;
+}          
+
+.item_par a:hover{
+    background: none repeat scroll 0 0 #5BAAF2;
+    color: #00284B;
+}    
+
+.item_impar a {
+    background: none repeat scroll 0 0 #395873;
+    color: #98C7F2;
+    display: block;
+}
+
+.item_impar a:hover{
+    background: #98C7F2;
+    color: #395873;
+}      
+
+
+#submenu{
+    position: relative;
+}
+
+#contenido{
+    width: 80%;
+    background: white;
+}
+
+#contenido1 {
+    display: inline-block;
+    height: 100%;
+    margin: 15% 1% 0;
+    width: 98%;
+}
+
+#izquierda{
+   width: 28%;
+   float: left;
+   text-align: center;
+   border-right: 1px solid #98C7F2;
+}
+
+#derecha{
+   width: 68%;
+   float: right;
+}
+
+.slider {
+   position: relative;
+   height: 198px;
+   width: 40%;
+   overflow: hidden;
+   margin: auto;
+   box-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+
+.anim{
+   position: absolute;
+   float:left;
+}
+
+.anim1 {
+   z-index: 5;
+   animation-name: Anim1;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-delay: 2s;
+   -webkit-animation-name: Anim1;
+   -webkit-animation-duration: 15s;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 2s;
+}
+
+.anim2 {
+   z-index: 4;
+   animation-name: Anim2;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-delay: 5s;
+   -webkit-animation-name: Anim1;
+   -webkit-animation-duration: 15s;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 5s;
+}
+
+.anim3 {
+   z-index: 3;
+   animation-name: Anim3;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-delay: 8s;
+   -webkit-animation-name: Anim1;
+   -webkit-animation-duration: 15s;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 8s;
+}
+
+.anim4 {
+   z-index: 2;
+   animation-name: Anim4;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-delay: 11s;
+   -webkit-animation-name: Anim1;
+   -webkit-animation-duration: 15s;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 11s;
+}
+.anim5 {
+   z-index: 1;
+   animation-name: Anim4;
+   animation-duration: 15s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-delay: 14s;
+   -webkit-animation-name: Anim1;
+   -webkit-animation-duration: 15s;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-delay: 14s;
+}
+
+
+
+@keyframes Anim1 {
+   0% {opacity: 100;}
+   20% {opacity:   0;}
+   80% {opacity:   0;}
+   100% {opacity: 100;}
+}
+
+@-webkit-keyframes Anim1 {
+   0% {opacity: 100;}
+   20% {opacity:   0;}
+   80% {opacity:   0;}
+   100% {opacity: 100;}
+}   
