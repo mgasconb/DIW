@@ -106,4 +106,31 @@ $(document).ready(function() {
 
 //EFECTOS PARA LOS ENLACES DEL MENU
 
+//EFECTOS PARA LOS ENLACES DEL DIV PRINCIPAL
+    $("#enlace1").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea1").css("display", "inline-block");
+    });
+    
+    $("#enlace2").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea2").css("display", "inline-block");
+    });
+    
+    $("#enlace3").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea3").css("display", "inline-block");
+    });
+    
+    $("#enlace4").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea4").css("display", "inline-block");
+    });
+    
+    $("#enlace5").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea5").css("display", "inline-block");
+    });
+//EFECTOS PARA LOS ENLACES DEL DIV PRINCIPAL
+
 });
