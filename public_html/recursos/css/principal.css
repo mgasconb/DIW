@@ -52,6 +52,12 @@ a{
     border-radius: 15px;
 }
 
+#logo{
+    float:left;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
 #contenido{
     width: 80%;
     background: white;
@@ -96,154 +102,154 @@ SLIDER DE MIRIAM
 */
 
 .slider {
-   position: relative;
-   height: 198px;
-   width: 40%;
-   overflow: hidden;
-   margin: auto;
+    position: relative;
+    height: 198px;
+    width: 40%;
+    overflow: hidden;
+    margin: auto;
 }
 
 .anim{
-   position: absolute;
-   float:left;
+    position: absolute;
+    float:left;
 }
 
 .anim1 {
-   z-index: 5;
-   animation-name: Anim1;
-   animation-duration: 15s;
-   animation-direction: alternate;
-   animation-iteration-count: infinite;
-   animation-delay: 2s;
-   -webkit-animation-name: Anim1;
-   -webkit-animation-duration: 15s;
-   -webkit-animation-direction: alternate;
-   -webkit-animation-iteration-count: infinite;
-   -webkit-animation-delay: 2s;
-   -moz-animation-name: Anim1;
-   -moz-animation-duration: 15s;
-   -moz-animation-direction: alternate;
-   -moz-animation-iteration-count: infinite;
-   -moz-animation-delay: 2s;
-   -ms-animation-name: Anim1;
-   -ms-animation-duration: 15s;
-   -ms-animation-direction: alternate;
-   -ms-animation-iteration-count: infinite;
-   -ms-animation-delay: 2s;
-   width: 100%;
+    z-index: 5;
+    animation-name: Anim1;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    -webkit-animation-name: Anim1;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+    -moz-animation-name: Anim1;
+    -moz-animation-duration: 15s;
+    -moz-animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 2s;
+    -ms-animation-name: Anim1;
+    -ms-animation-duration: 15s;
+    -ms-animation-direction: alternate;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-delay: 2s;
+    width: 100%;
 }
 
 .anim2 {
-   z-index: 4;
-   animation-name: Anim2;
-   animation-duration: 15s;
-   animation-direction: alternate;
-   animation-iteration-count: infinite;
-   animation-delay: 5s;
-   -webkit-animation-name: Anim1;
-   -webkit-animation-duration: 15s;
-   -webkit-animation-direction: alternate;
-   -webkit-animation-iteration-count: infinite;
-   -webkit-animation-delay: 5s;
-   -moz-animation-name: Anim2;
-   -moz-animation-duration: 15s;
-   -moz-animation-direction: alternate;
-   -moz-animation-iteration-count: infinite;
-   -moz-animation-delay: 5s;
-   -ms-animation-name: Anim1;
-   -ms-animation-duration: 15s;
-   -ms-animation-direction: alternate;
-   -ms-animation-iteration-count: infinite;
-   -ms-animation-delay: 5s;
-   width: 100%;
+    z-index: 4;
+    animation-name: Anim2;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    -webkit-animation-name: Anim1;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 5s;
+    -moz-animation-name: Anim2;
+    -moz-animation-duration: 15s;
+    -moz-animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 5s;
+    -ms-animation-name: Anim1;
+    -ms-animation-duration: 15s;
+    -ms-animation-direction: alternate;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-delay: 5s;
+    width: 100%;
 }
 
 .anim3 {
-   z-index: 3;
-   animation-name: Anim3;
-   animation-duration: 15s;
-   animation-direction: alternate;
-   animation-iteration-count: infinite;
-   animation-delay: 8s;
-   -webkit-animation-name: Anim3;
-   -webkit-animation-duration: 15s;
-   -webkit-animation-direction: alternate;
-   -webkit-animation-iteration-count: infinite;
-   -webkit-animation-delay: 8s;
-   -moz-animation-name: Anim1;
-   -moz-animation-duration: 15s;
-   -moz-animation-direction: alternate;
-   -moz-animation-iteration-count: infinite;
-   -moz-animation-delay: 8s;
-   -ms-animation-name: Anim1;
-   -ms-animation-duration: 15s;
-   -ms-animation-direction: alternate;
-   -ms-animation-iteration-count: infinite;
-   -ms-animation-delay: 8s;
-   width: 100%;
+    z-index: 3;
+    animation-name: Anim3;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+    -webkit-animation-name: Anim3;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 8s;
+    -moz-animation-name: Anim1;
+    -moz-animation-duration: 15s;
+    -moz-animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 8s;
+    -ms-animation-name: Anim1;
+    -ms-animation-duration: 15s;
+    -ms-animation-direction: alternate;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-delay: 8s;
+    width: 100%;
 }
 
 .anim4 {
-   z-index: 2;
-   animation-name: Anim4;
-   animation-duration: 15s;
-   animation-direction: alternate;
-   animation-iteration-count: infinite;
-   animation-delay: 11s;
-   -webkit-animation-name: Anim3;
-   -webkit-animation-duration: 15s;
-   -webkit-animation-direction: alternate;
-   -webkit-animation-iteration-count: infinite;
-   -webkit-animation-delay: 11s;
-   -moz-animation-name: Anim4;
-   -moz-animation-duration: 15s;
-   -moz-animation-direction: alternate;
-   -moz-animation-iteration-count: infinite;
-   -moz-animation-delay: 11s;
-   -ms-animation-name: Anim1;
-   -ms-animation-duration: 15s;
-   -ms-animation-direction: alternate;
-   -ms-animation-iteration-count: infinite;
-   -ms-animation-delay: 11s;
-   width: 100%;
+    z-index: 2;
+    animation-name: Anim4;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 11s;
+    -webkit-animation-name: Anim3;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 11s;
+    -moz-animation-name: Anim4;
+    -moz-animation-duration: 15s;
+    -moz-animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 11s;
+    -ms-animation-name: Anim1;
+    -ms-animation-duration: 15s;
+    -ms-animation-direction: alternate;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-delay: 11s;
+    width: 100%;
 }
 .anim5 {
-   z-index: 1;
-   animation-name: Anim4;
-   animation-duration: 15s;
-   animation-direction: alternate;
-   animation-iteration-count: infinite;
-   animation-delay: 14s;
-   -webkit-animation-name: Anim5;
-   -webkit-animation-duration: 15s;
-   -webkit-animation-direction: alternate;
-   -webkit-animation-iteration-count: infinite;
-   -webkit-animation-delay: 14s;
-   -moz-animation-name: Anim4;
-   -moz-animation-duration: 15s;
-   -moz-animation-direction: alternate;
-   -moz-animation-iteration-count: infinite;
-   -moz-animation-delay: 14s;
-   -ms-animation-name: Anim1;
-   -ms-animation-duration: 15s;
-   -ms-animation-direction: alternate;
-   -ms-animation-iteration-count: infinite;
-   -ms-animation-delay: 14s;
-   width: 100%;
+    z-index: 1;
+    animation-name: Anim4;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 14s;
+    -webkit-animation-name: Anim5;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 14s;
+    -moz-animation-name: Anim4;
+    -moz-animation-duration: 15s;
+    -moz-animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 14s;
+    -ms-animation-name: Anim1;
+    -ms-animation-duration: 15s;
+    -ms-animation-direction: alternate;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-delay: 14s;
+    width: 100%;
 }
 
 
 
 @keyframes Anim1 {
-   0% {opacity: 100;}
-   20% {opacity:   0;}
-   80% {opacity:   0;}
-   100% {opacity: 100;}
+    0% {opacity: 100;}
+20% {opacity:   0;}
+80% {opacity:   0;}
+100% {opacity: 100;}
 }
 
 @-webkit-keyframes Anim1 {
-   0% {opacity: 100;}
-   20% {opacity:   0;}
-   80% {opacity:   0;}
-   100% {opacity: 100;}
+    0% {opacity: 100;}
+20% {opacity:   0;}
+80% {opacity:   0;}
+100% {opacity: 100;}
 }   
