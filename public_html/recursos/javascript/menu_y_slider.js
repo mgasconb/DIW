@@ -23,19 +23,20 @@ $(document).ready(function() {
 //EFECTOS PARA LAS FLECHAS DE INICIO
     $("#d_nosotros").hide();
 
-    $('#nosotros').toggle(function() {
-        $("#d_nosotros").slideDown(
-                function() {
-                    $("#nosotros").html("&#9650;");
-                }
-        );
-    }, function() {
-        $("#d_nosotros").slideUp(
-                function() {
-                    $("#nosotros").html("&#9660;");
-                }
-        );
-    });
+    $('#nosotros').click(function() {
+        if ($("#d_nosotros").is(":visible")) {
+            $("#d_nosotros").slideUp(
+                    function() {
+                        $("#nosotros").html("&#9660;");
+                    });
+        }
+        else{
+           $("#d_nosotros").slideDown(
+                    function() {
+                        $("#nosotros").html("&#9650;");
+                    }); 
+        }
+    });    
 
     $('#nosotros').mouseover(function() {
         $("#d_nosotros").slideDown(function() {
@@ -46,17 +47,21 @@ $(document).ready(function() {
 
 
     $("#d_trayectos").hide();
-    $('#trayectos').toggle(function() {
-        $("#d_trayectos").slideDown(function() {
-            $("#trayectos").html("&#9650;");
+    
+    $('#trayectos').click(function() {
+        if ($("#d_trayectos").is(":visible")) {
+            $("#d_trayectos").slideUp(
+                    function() {
+                        $("#trayectos").html("&#9660;");
+                    });
         }
-        );
-    }, function() {
-        $("#d_trayectos").slideUp(function() {
-            $("#trayectos").html("&#9660;");
+        else{
+           $("#d_trayectos").slideDown(
+                    function() {
+                        $("#trayectos").html("&#9650;");
+                    }); 
         }
-        );
-    });
+    });        
 
     $('#trayectos').mouseover(function() {
         $("#d_trayectos").slideDown(function() {
