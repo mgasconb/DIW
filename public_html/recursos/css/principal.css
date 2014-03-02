@@ -52,10 +52,19 @@ a{
     border-radius: 15px;
 }
 
-#logo{
+#eslogan_logo{
+    width: 40%;
+    float: left;
+}
+
+#eslogan{
     float:left;
-    margin-left: 7%;
-    margin-top: 5%;
+}
+
+#logo{
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 #contenido{
@@ -107,6 +116,7 @@ SLIDER DE MIRIAM
     width: 40%;
     overflow: hidden;
     margin: auto;
+    float: left;
 }
 
 .anim{
