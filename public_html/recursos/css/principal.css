@@ -17,7 +17,7 @@ body{
     background: none repeat scroll 0 0 #E0E0E0;
 }
 
-h3{
+h3, h2{
     color: #98C7F6;
 }
 
@@ -58,6 +58,10 @@ a{
     min-height: 506px;
 }
 
+.animacion{
+    display:none;
+}
+
 #contenido1 {
     display: inline-block;
     height: 100%;
@@ -65,14 +69,9 @@ a{
     width: 98%;
 }
 
-/*Contenido 1 en los HTML de las lineas*/
-#contenido1_lineas{
-    display: inline-block;
-    height: 100%;
-    margin: 15% 10% 0;
-    width: 98%;
+#inicio{
+    margin: 0 0 0 10%;
 }
-
 
 #izquierda{
     width: 28%;
@@ -93,6 +92,3 @@ a{
     font-size: larger;
 }
 
-.animacion{
-    display:none !important;
-}

@@ -20,6 +20,7 @@ $(document).ready(function() {
         }
     });
 
+//EFECTOS PARA LAS FLECHAS DE INICIO
     $("#d_nosotros").hide();
 
     $('#nosotros').toggle(function() {
@@ -36,25 +37,68 @@ $(document).ready(function() {
         );
     });
 
+    $('#nosotros').mouseover(function() {
+        $("#d_nosotros").slideDown(function() {
+            $("#nosotros").html("&#9650;");
+        }
+        );
+    });
+
+
     $("#d_trayectos").hide();
     $('#trayectos').toggle(function() {
-        $("#d_trayectos").slideDown(
-                function() {
-                    $("#trayectos").html("&#9650;");
-                }
+        $("#d_trayectos").slideDown(function() {
+            $("#trayectos").html("&#9650;");
+        }
         );
     }, function() {
-        $("#d_trayectos").slideUp(
-                function() {
-                    $("#trayectos").html("&#9660;");
-                }
+        $("#d_trayectos").slideUp(function() {
+            $("#trayectos").html("&#9660;");
+        }
         );
     });
-    
-    $(".elemento_menu").click(function(){
-        $("animacion").hide();
-        var nodo = $(this).attr("href"); 
-        $(nodo).show();
+
+    $('#trayectos').mouseover(function() {
+        $("#d_trayectos").slideDown(function() {
+            $("#trayectos").html("&#9650;");
+        }
+        );
     });
-    
+
+//EFECTOS PARA LAS FLECHAS DE INICIO
+
+//EFECTOS PARA LOS ENLACES DEL MENU
+
+    $("#menu1").click(function() {
+        $(".animacion").hide();
+        $("#contenido1").css("display", "inline-block");
+    });
+
+    $("#menu3").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea1").css("display", "inline-block");
+    });
+
+    $("#menu4").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea2").css("display", "inline-block");
+    });
+
+    $("#menu5").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea3").css("display", "inline-block");
+    });
+
+    $("#menu6").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea4").css("display", "inline-block");
+    });
+
+    $("#menu7").click(function() {
+        $(".animacion").hide();
+        $("#contenido_linea5").css("display", "inline-block");
+    });
+
+//EFECTOS PARA LOS ENLACES DEL MENU
+
 });

@@ -8,6 +8,7 @@
     display: block;
     position: relative;
     font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
 }
 #css_menu2 ul {
     list-style: none;
@@ -186,4 +187,8 @@
 }
 #css_menu2 #menu-button {
     display: none;
+}
+
+#menu1 a:hover{
+    background: #98C7F6;
 }

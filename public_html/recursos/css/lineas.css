@@ -59,8 +59,7 @@ a{
 
 
 /*Contenido 1 en los HTML de las lineas*/
-#contenido1_lineas{
-    display: inline-block;
+#contenido_linea1, #contenido_linea2, #contenido_linea3, #contenido_linea4, #contenido_linea5{
     height: 100%;
     margin: 15% 10% 0;
     width: 98%;
